@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private Button requestHolidayButton, viewProfileButton;
+    private Button requestHolidayButton, viewProfileButton, logoutButton;
     private String employeeDetails = ""; // Store employee details from Intent
 
     @Override
@@ -18,6 +18,7 @@ public class HomeActivity extends AppCompatActivity {
 
         requestHolidayButton = findViewById(R.id.requestHolidayButton);
         viewProfileButton = findViewById(R.id.viewProfileButton);
+        logoutButton = findViewById(R.id.logoutButton);  // Initialize log-out button
 
         // Retrieve employee details from Intent
         Intent intent = getIntent();
@@ -38,8 +39,16 @@ public class HomeActivity extends AppCompatActivity {
                 Toast.makeText(HomeActivity.this, "Employee details not available", Toast.LENGTH_SHORT).show();
             }
         });
+
+        logoutButton.setOnClickListener(v -> {
+            // Navigate back to MainActivity (log out)
+            Intent logoutIntent = new Intent(HomeActivity.this, MainActivity.class);
+            startActivity(logoutIntent);
+            finish();  // Close HomeActivity
+        });
     }
 }
+
 
 
 

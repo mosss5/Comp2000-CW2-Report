@@ -50,6 +50,12 @@
         <activity
             android:name="com.example.loginactivity.ViewProfileActivity"
             android:exported="true" />
+        <activity
+            android:name="com.example.loginactivity.ViewAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.loginactivity.AdminActivity"
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

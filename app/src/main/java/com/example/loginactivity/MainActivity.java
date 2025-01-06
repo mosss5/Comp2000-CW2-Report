@@ -31,13 +31,22 @@ public class MainActivity extends AppCompatActivity {
         resultText = findViewById(R.id.resultText);
 
         loginButton.setOnClickListener(v -> {
-            String employeeId = idEditText.getText().toString();
-            String url = "http://10.224.41.11/comp2000/employees/get/" + employeeId;
-            fetchData(url);
+            String employeeId = idEditText.getText().toString().trim();  // Get input and trim whitespaces
+
+            // Check if the input is "admin" (case-insensitive)
+            if (employeeId.equalsIgnoreCase("admin")) {
+                // If the input is "admin", navigate to AdminActivity
+                Intent intent = new Intent(MainActivity.this, AdminActivity.class);
+                startActivity(intent);
+                finish();  // Close MainActivity
+            } else {
+                // For other employee IDs, fetch data
+                String url = "http://10.224.41.11/comp2000/employees/get/" + employeeId;
+                fetchData(url);
+            }
         });
     }
 
-    // Replace AsyncTask with ExecutorService and Runnable
     private void fetchData(String url) {
         ExecutorService executorService = Executors.newSingleThreadExecutor();
         executorService.execute(() -> {
@@ -59,7 +68,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // Handle the result after fetching data
     private void onPostFetchData(String result) {
         if (result != null) {
             // Transition to HomeActivity with employee details
@@ -74,3 +82,4 @@ public class MainActivity extends AppCompatActivity {
 }
 
 
+//http://10.224.41.11/comp2000/employees/get/

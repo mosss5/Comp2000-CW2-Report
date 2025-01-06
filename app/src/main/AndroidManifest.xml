@@ -26,7 +26,8 @@
         <activity android:name=".HomeActivity" android:exported="true" />
         <activity android:name=".RequestHolidayActivity" android:exported="true" />
         <activity android:name=".ViewProfileActivity" android:exported="true" />
-
+        <activity android:name=".ViewAdminActivity" android:exported="true" />
+        <activity android:name=".AdminActivity" android:exported="true"/>
     </application>
 
 </manifest>

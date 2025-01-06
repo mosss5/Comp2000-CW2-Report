@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/adminTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Admin message -->
+    <TextView
+        android:id="@+id/adminMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Admin Panel!"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- User ID input field -->
+    <EditText
+        android:id="@+id/userIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee ID"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Search for User button -->
+    <Button
+        android:id="@+id/searchUserButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search for User"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Log Out Button -->
+    <Button
+        android:id="@+id/logoutAdminButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Result TextView (for feedback or errors) -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:3:1-32:12
-INJECTED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:3:1-32:12
-INJECTED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:3:1-32:12
-INJECTED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:3:1-32:12
+ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:3:1-33:12
+INJECTED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:3:1-33:12
+INJECTED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:3:1-33:12
+INJECTED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:3:1-33:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\beebe\.gradle\caches\8.9\transforms\112081037c4255823d544e706bbf80b6\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\beebe\.gradle\caches\8.9\transforms\0e6d977777a990cb1d919c838d616e11\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\beebe\.gradle\caches\8.9\transforms\6a5dc8680fed4b3816c6439bc20144e3\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -63,8 +63,8 @@ ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\
 	android:name
 		ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:8:22-76
 application
-ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:10:5-30:19
-INJECTED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:10:5-30:19
+ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:10:5-31:19
+INJECTED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:10:5-31:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\beebe\.gradle\caches\8.9\transforms\112081037c4255823d544e706bbf80b6\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\beebe\.gradle\caches\8.9\transforms\112081037c4255823d544e706bbf80b6\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\beebe\.gradle\caches\8.9\transforms\0e6d977777a990cb1d919c838d616e11\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
@@ -129,6 +129,18 @@ ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\
 		ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:28:55-78
 	android:name
 		ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:28:19-54
+activity#com.example.loginactivity.ViewAdminActivity
+ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:29:9-79
+	android:exported
+		ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:29:53-76
+	android:name
+		ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:29:19-52
+activity#com.example.loginactivity.AdminActivity
+ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:30:9-74
+	android:exported
+		ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:30:49-72
+	android:name
+		ADDED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml:30:19-48
 uses-sdk
 INJECTED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\AndroidManifest.xml

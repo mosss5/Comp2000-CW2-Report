@@ -3184,6 +3184,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id adminMessage
+id adminTitle
 id alertTitle
 id aligned
 id all
@@ -3201,6 +3203,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id axisRelative
+id backToAdminButton
 id backToHomeButton
 id barrier
 id baseline
@@ -3374,6 +3377,8 @@ id linear
 id listMode
 id list_item
 id loginButton
+id logoutAdminButton
+id logoutButton
 id m3_side_sheet
 id marquee
 id masked
@@ -3515,6 +3520,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchUserButton
 id search_badge
 id search_bar
 id search_button
@@ -3624,6 +3630,7 @@ id unlabeled
 id up
 id updateButton
 id useLogo
+id userIdEditText
 id vertical
 id vertical_only
 id viewProfileButton
@@ -3758,10 +3765,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_admin
 layout activity_edit_profile
 layout activity_home
 layout activity_main
 layout activity_request_holiday
+layout activity_view_admin
 layout activity_view_profile
 layout custom_dialog
 layout design_bottom_navigation_item

@@ -1,5 +1,5 @@
 com.example.loginactivity.test.app-core-1.6.1-0 C:\Users\beebe\.gradle\caches\8.9\transforms\2da3f6b36fa61acbfc52e2a1501063ae\transformed\core-1.6.1\res
-com.example.loginactivity.test.app-androidTest-1 C:\Users\beebe\Documents\Loginactivity-2\app\build\generated\res\resValues\androidTest\debug
-com.example.loginactivity.test.app-mergeDebugAndroidTestResources-2 C:\Users\beebe\Documents\Loginactivity-2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.loginactivity.test.app-mergeDebugAndroidTestResources-3 C:\Users\beebe\Documents\Loginactivity-2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.loginactivity.test.app-debugAndroidTest-4 C:\Users\beebe\Documents\Loginactivity-2\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.loginactivity.test.app-androidTest-1 C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\build\generated\res\resValues\androidTest\debug
+com.example.loginactivity.test.app-mergeDebugAndroidTestResources-2 C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.loginactivity.test.app-mergeDebugAndroidTestResources-3 C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.loginactivity.test.app-debugAndroidTest-4 C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

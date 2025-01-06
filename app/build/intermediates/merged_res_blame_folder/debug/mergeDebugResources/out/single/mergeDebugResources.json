@@ -12,6 +12,10 @@
         "source": "com.example.loginactivity.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "com.example.loginactivity.app-debug-31:/layout_activity_admin.xml.flat",
+        "source": "com.example.loginactivity.app-main-33:/layout/activity_admin.xml"
+    },
+    {
         "merged": "com.example.loginactivity.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.loginactivity.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
@@ -66,6 +70,10 @@
     {
         "merged": "com.example.loginactivity.app-debug-31:/layout_activity_view_profile.xml.flat",
         "source": "com.example.loginactivity.app-main-33:/layout/activity_view_profile.xml"
+    },
+    {
+        "merged": "com.example.loginactivity.app-debug-31:/layout_activity_view_admin.xml.flat",
+        "source": "com.example.loginactivity.app-main-33:/layout/activity_view_admin.xml"
     },
     {
         "merged": "com.example.loginactivity.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
