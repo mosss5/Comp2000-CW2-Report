@@ -25,10 +25,10 @@ com.example.loginactivity.app-appcompat-1.7.0-23 C:\Users\beebe\.gradle\caches\8
 com.example.loginactivity.app-coordinatorlayout-1.1.0-24 C:\Users\beebe\.gradle\caches\8.9\transforms\bfe6296c2a43e1b11abab1099862b3e6\transformed\coordinatorlayout-1.1.0\res
 com.example.loginactivity.app-lifecycle-runtime-2.6.2-25 C:\Users\beebe\.gradle\caches\8.9\transforms\e12ae8f405b9731bdbafed6b6e7a8b56\transformed\lifecycle-runtime-2.6.2\res
 com.example.loginactivity.app-recyclerview-1.1.0-26 C:\Users\beebe\.gradle\caches\8.9\transforms\ec925cdb44a2fff8b94a408c1986ffba\transformed\recyclerview-1.1.0\res
-com.example.loginactivity.app-pngs-27 C:\Users\beebe\Documents\Loginactivity-2\app\build\generated\res\pngs\debug
-com.example.loginactivity.app-resValues-28 C:\Users\beebe\Documents\Loginactivity-2\app\build\generated\res\resValues\debug
-com.example.loginactivity.app-packageDebugResources-29 C:\Users\beebe\Documents\Loginactivity-2\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.loginactivity.app-packageDebugResources-30 C:\Users\beebe\Documents\Loginactivity-2\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.loginactivity.app-debug-31 C:\Users\beebe\Documents\Loginactivity-2\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.loginactivity.app-debug-32 C:\Users\beebe\Documents\Loginactivity-2\app\src\debug\res
-com.example.loginactivity.app-main-33 C:\Users\beebe\Documents\Loginactivity-2\app\src\main\res
+com.example.loginactivity.app-pngs-27 C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\build\generated\res\pngs\debug
+com.example.loginactivity.app-resValues-28 C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\build\generated\res\resValues\debug
+com.example.loginactivity.app-packageDebugResources-29 C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.loginactivity.app-packageDebugResources-30 C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.loginactivity.app-debug-31 C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.loginactivity.app-debug-32 C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\debug\res
+com.example.loginactivity.app-main-33 C:\Users\beebe\source\repos\resit repository\Comp2000-CW2-Report\app\src\main\res
