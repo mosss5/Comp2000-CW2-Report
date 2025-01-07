@@ -31,16 +31,12 @@ public class MainActivity extends AppCompatActivity {
         resultText = findViewById(R.id.resultText);
 
         loginButton.setOnClickListener(v -> {
-            String employeeId = idEditText.getText().toString().trim();  // Get input and trim whitespaces
+            String employeeId = idEditText.getText().toString().trim();
 
-            // Check if the input is "admin" (case-insensitive)
             if (employeeId.equalsIgnoreCase("admin")) {
-                // If the input is "admin", navigate to AdminActivity
                 Intent intent = new Intent(MainActivity.this, AdminActivity.class);
                 startActivity(intent);
-                finish();  // Close MainActivity
             } else {
-                // For other employee IDs, fetch data
                 String url = "http://10.224.41.11/comp2000/employees/get/" + employeeId;
                 fetchData(url);
             }
@@ -70,11 +66,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void onPostFetchData(String result) {
         if (result != null) {
-            // Transition to HomeActivity with employee details
             Intent intent = new Intent(MainActivity.this, HomeActivity.class);
             intent.putExtra("employeeDetails", result);
             startActivity(intent);
-            finish();  // Close MainActivity
+            finish();
         } else {
             resultText.setText(R.string.failed_to_fetch_data);
         }

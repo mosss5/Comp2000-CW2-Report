@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class HomeActivity extends AppCompatActivity {
 
     private Button requestHolidayButton, viewProfileButton, logoutButton;
-    private String employeeDetails = ""; // Store employee details from Intent
+    private String employeeDetails = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,19 +18,16 @@ public class HomeActivity extends AppCompatActivity {
 
         requestHolidayButton = findViewById(R.id.requestHolidayButton);
         viewProfileButton = findViewById(R.id.viewProfileButton);
-        logoutButton = findViewById(R.id.logoutButton);  // Initialize log-out button
+        logoutButton = findViewById(R.id.logoutButton);
 
-        // Retrieve employee details from Intent
         Intent intent = getIntent();
         employeeDetails = intent.getStringExtra("employeeDetails");
 
         requestHolidayButton.setOnClickListener(v -> {
-            // Navigate to RequestHolidayActivity
             startActivity(new Intent(HomeActivity.this, RequestHolidayActivity.class));
         });
 
         viewProfileButton.setOnClickListener(v -> {
-            // Pass employee details to ViewProfileActivity if available
             if (!employeeDetails.isEmpty()) {
                 Intent viewProfileIntent = new Intent(HomeActivity.this, ViewProfileActivity.class);
                 viewProfileIntent.putExtra("employeeDetails", employeeDetails);
@@ -41,10 +38,9 @@ public class HomeActivity extends AppCompatActivity {
         });
 
         logoutButton.setOnClickListener(v -> {
-            // Navigate back to MainActivity (log out)
             Intent logoutIntent = new Intent(HomeActivity.this, MainActivity.class);
             startActivity(logoutIntent);
-            finish();  // Close HomeActivity
+            finish();
         });
     }
 }
